@@ -1,4 +1,4 @@
 .env
 config.php
-infinity credentials.txt
-admin credentials.txt
+infinity_credentials.txt
+admin_credentials.txt
