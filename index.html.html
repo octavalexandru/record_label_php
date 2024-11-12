@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezentarea Proiectului Music Label</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Prezentarea Proiectului Music Label</h1>
+        <p>O aplicație web pentru gestionarea unei case de discuri</p>
+    </header>
+
+    <section>
+        <h2>Prezentare Generală</h2>
+        <p>Aplicația noastră web Music Label este proiectată pentru a gestiona artiști, albume, produse și comenzi ale utilizatorilor. Oferă utilizatorilor o experiență fără cusur pentru a explora artiști, a asculta albumele lor și a cumpăra produse oficiale.</p>
+    </section>
+
+    <section>
+        <h2>Descrierea Arhitecturii</h2>
+        <h3>Entități & Roluri</h3>
+        <ul>
+            <li><strong>Utilizatori:</strong> Pot naviga printre albume, cumpăra produse și vizualiza istoricul comenzilor lor.</li>
+            <li><strong>Admini:</strong> Gestionarea artiștilor, albumelor, listelor de produse și supravegherea comenzilor.</li>
+            <li><strong>Artiști:</strong> Profiluri care detaliază biografii și albume legate.</li>
+        </ul>
+
+        <h3>Procese</h3>
+        <ul>
+            <li>Înregistrarea și autentificarea utilizatorilor</li>
+            <li>Navigarea prin albume și produse</li>
+            <li>Plasarea și gestionarea comenzilor</li>
+        </ul>
+
+        <h3>Relații</h3>
+        <p><strong>Artiștii</strong> sunt legați de <strong>Albume</strong>. Utilizatorii pot avea multiple <strong>Comenzi</strong>, care includ <strong>Articole de Comandă</strong> pentru produse și <strong>Albume Comandate</strong> pentru albume.</p>
+    </section>
+
+    <section>
+        <h2>Descrierea Bazei de Date</h2>
+        <p>Baza noastră de date constă din mai multe tabele:</p>
+        <ul>
+            <li><strong>Artiști:</strong> Informații despre artiști, cum ar fi numele și biografia.</li>
+            <li><strong>Albume:</strong> Detalii despre albume și legături cu artiștii.</li>
+            <li><strong>Utilizatori:</strong> Gestionarea datelor utilizatorilor și a parolelor securizate.</li>
+            <li><strong>Comenzi:</strong> Urmărirea comenzilor utilizatorilor, suma totală și starea.</li>
+            <li><strong>Produse:</strong> Listarea articolelor disponibile pentru vânzare, cum ar fi îmbrăcămintea și accesoriile.</li>
+            <li><strong>Articole de Comandă și Albume Comandate:</strong> Detalii despre articolele achiziționate și cantitățile acestora.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Propunerea Soluției de Implementare</h2>
+        <p>Front-end-ul va utiliza HTML, CSS și JavaScript, cu framework-uri precum Bootstrap pentru stilizare. Back-end-ul va fi implementat în PHP pentru a gestiona sesiunile utilizatorilor și interacțiunile cu baza de date, în timp ce MySQL va fi utilizat pentru gestionarea datelor relaționale.</p>
+        <p>Diagrame UML, precum diagrame de cazuri de utilizare și clase, vor ajuta la vizualizarea interacțiunilor și structurilor de date.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Proiectul Music Label. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
